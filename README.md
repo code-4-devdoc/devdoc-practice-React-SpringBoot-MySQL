@@ -18,6 +18,27 @@
 <br/>
 <br/>
 
+# 메모장
+## Postman - Request Example
+![postman_example](https://github.com/code-4-devdoc/devdoc-practice-React-SpringBoot-MySQL/assets/130027416/9a6c12f2-0d78-47fc-b416-b4442ff45711)
+<br/>
+<br/>
+
+## Swagger-UI (Spring 3.3.0 기준)  
+`build.gradle` 파일에 추가
+> implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
+<br/>
+localhost:8080/swagger-ui/index.html  --  이 주소로 접속 가능
+<br/>
+<br/>
+
+## MySQL Driver (Spring 3.3.0 기준)  
+`build.gradle` 파일에 추가
+> implementation group: 'com.mysql', name: 'mysql-connector-j'
+<br/>
+<br/>
+<br/>
+
 # API 명세서
 ## `/api/resumes` 엔드포인트:
 
@@ -74,24 +95,3 @@
 
 - `DELETE /api/resumes/{resume_id}/projects/{id}`: 특정 Project 삭제
 > 이력서{id}의 Project{id}의 테이블 삭제
-<br/>
-<br/>
-<br/>
-
-# 메모장
-## Postman - Request Example
-![postman_example](https://github.com/code-4-devdoc/devdoc-practice-React-SpringBoot-MySQL/assets/130027416/9a6c12f2-0d78-47fc-b416-b4442ff45711)
-<br/>
-<br/>
-
-## Swagger-UI (Spring 3.3.0 기준)  
-build.gradle  --  파일에 추가
-> implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2'
-<br/>
-localhost:8080/swagger-ui/index.html  --  이 주소로 접속 가능
-<br/>
-<br/>
-
-## MySQL Driver (Spring 3.3.0 기준)  
-build.gradle  --  파일에 추가
-> implementation group: 'com.mysql', name: 'mysql-connector-j'
