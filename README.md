@@ -11,6 +11,8 @@
 <br/>
 >> Project{id, resumeId, title, content, period, current}
 <br/>
+>> 데이터베이스 ~ Model ~ Repository ~ Service ~ DTO ~ Controller ~ 클라이언트
+<br/>
 >> 크램폴린에 MySQL을 올리려면 어떻게??
 <br/>
 <br/>
