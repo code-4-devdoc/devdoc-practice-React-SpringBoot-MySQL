@@ -11,7 +11,7 @@
 <br/>
 >> Project{id, resumeId, title, content, period, current}
 <br/>
->> 크램폴린에 MySQL을 올리게 되면 좀 많이 복잡해질듯
+>> 크램폴린에 MySQL을 올리려면 어떻게??
 <br/>
 <br/>
 <br/>
